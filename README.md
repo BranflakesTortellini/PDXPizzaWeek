@@ -42,3 +42,8 @@ pip install requests beautifulsoup4 pandas lxml openpyxl xlwt html5lib tqdm
 
 ## General Usage Notes
 - These scripts are designed to be used in sequence: first run `Pizza_Week_Data_Pull.py` to gather the data, and then use `Pizza_Week_Data_Parse_v5.py` to process that data into a final, sorted Excel file.
+
+
+## Disclaimer
+
+The scripts provided here are not officially associated with the Portland Pizza Week event. They have been created by an independent developer with the intent to assist the local community in enjoying Pizza Week. The information provided by these scripts is for personal use only and should not be used for commercial purposes.
