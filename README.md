@@ -6,7 +6,7 @@ These scripts are designed to facilitate the exploration of Pizza Week events by
 
 1. **Pizza_Week_Data_Pull.py**: Scrapes the main event page for Pizza Week, gathering details from individual event subpages, and saves the data to an Excel file.
 2. **Pizza_Week_Data_Parse_v5.py**: Parses the previously saved Excel file, cleans and extracts specific information from the event descriptions, and exports an intermediate, organized Excel spreadsheet.
-3. **Pizza_Week_Address_Split_Test_AI_v2.py** (Optional): Further processes the intermediate Excel file to correct and verify restaurant address data using an AI model, and then finalizes the Excel spreadsheet with reordered and optionally refined data columns. If there are two locations serving the same pizza then it gives each location its own entry in the spreadsheet with their associated addresses and hours of operation.
+3. **Pizza_Week_Address_Split_Test_AI_v2.py** (Optional): Further processes the intermediate Excel file to correct and verify restaurant address data using an AI model, and then finalizes the Excel spreadsheet with reordered and optionally refined data columns. If there are two locations serving the same pizza then it gives each location its own entry in the spreadsheet with their associated addresses and hours of operation.  Note: Use "OpenChat" settings with your LLM server as the script will feed in its own prompt instructions.
 
 ## Requirements
 
